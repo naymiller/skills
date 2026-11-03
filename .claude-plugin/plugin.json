@@ -1,0 +1,35 @@
+{
+  "name": "naymiller-skills",
+  "version": "1.0.0",
+  "description": "Скиллы для агентов на русском: расчёт и КП на мерч, цветоделение под шелкографию, референсы одежды для ИИ-фото, спрос и аналитика Яндекса/Google без API-ключей, аутрич через Яндекс 360, Higgsfield с лимитом расходов, как писать скиллы.",
+  "author": {
+    "name": "naymiller",
+    "url": "https://github.com/naymiller"
+  },
+  "repository": "https://github.com/naymiller/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "russian",
+    "merch",
+    "screen-printing",
+    "yandex",
+    "wordstat",
+    "metrika",
+    "webmaster",
+    "search-console",
+    "outreach",
+    "higgsfield",
+    "mcp"
+  ],
+  "skills": [
+    "./skills/merch/merch-quote",
+    "./skills/merch/screenprint-separation",
+    "./skills/merch/apparel-references",
+    "./skills/ru-web/yandex-demand-research",
+    "./skills/ru-web/yandex-gsc-analytics",
+    "./skills/ru-web/yandex360-outreach",
+    "./skills/ru-web/higgsfield-budget-mcp",
+    "./skills/meta/skill-writing-ru"
+  ]
+}

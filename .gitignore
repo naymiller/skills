@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+.env
+history/
+crm/
+leads.csv
+config.json
+*.jsonl
+

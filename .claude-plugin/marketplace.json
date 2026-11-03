@@ -1,0 +1,27 @@
+{
+  "name": "naymiller",
+  "owner": {
+    "name": "naymiller",
+    "url": "https://github.com/naymiller"
+  },
+  "description": "Скиллы для агентов на русском: мерч и печать, Яндекс и сайты.",
+  "metadata": {
+    "description": "Скиллы для агентов на русском: мерч и печать, Яндекс и сайты."
+  },
+  "plugins": [
+    {
+      "name": "naymiller-skills",
+      "source": "./",
+      "description": "Скиллы для агентов на русском: расчёт и КП на мерч, цветоделение под шелкографию, референсы одежды для ИИ-фото, спрос и аналитика Яндекса/Google без API-ключей, аутрич через Яндекс 360, Higgsfield с лимитом расходов, как писать скиллы.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "russian",
+        "merch",
+        "screen-printing",
+        "yandex",
+        "wordstat"
+      ]
+    }
+  ]
+}
