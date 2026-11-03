@@ -1,5 +1,7 @@
 # Скиллы для агентов на русском
 
+> **English summary.** Agent skills (Claude Code / Cowork / claude.ai, any `SKILL.md`-aware agent) built from a real garment and print production business. **Merch & print:** merch costing and quotes (sewing + screen printing by colors and run size + DTF + embroidery), screen-print color separation to 1:1 films with trapping and underbase, apparel reference maps before AI product photos. **Russian web:** Yandex demand research before building a site (Wordstat, suggestions, SERP, Alice), Yandex Metrica / Webmaster / Google Search Console analysis via a logged-in browser without API tokens, B2B outreach via Yandex 360 from a Mac (Keychain, warm-up, launchd), a budget-capped Higgsfield API MCP server (USD limits, estimate before submit, idempotent retries). **Meta:** how to write skills (Russian adaptation of Matt Pocock's writing-for-agents). Skills are written in Russian. Install: `claude plugin marketplace add naymiller/skills` → `claude plugin install naymiller-skills@naymiller`. MIT.
+
 Скиллы для Claude (Claude Code, Cowork, claude.ai) и других агентов, которые читают `SKILL.md`. Собраны из реальной работы швейного и печатного производства и его сайтов: каждый скилл — процедура, которую уже прогоняли на живых заказах, с порогами, проверками и граблями.
 
 Пишутся по правилам [skill-writing-ru](skills/meta/skill-writing-ru/SKILL.md): короткое описание, ветки, «Готово, когда» у каждого шага, жёсткие ограничения на деньги, отправку и личные данные.
