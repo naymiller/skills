@@ -9,18 +9,23 @@
   "repository": "https://github.com/naymiller/skills",
   "license": "MIT",
   "keywords": [
-    "skills",
-    "russian",
-    "merch",
-    "screen-printing",
-    "yandex",
-    "wordstat",
-    "metrika",
-    "webmaster",
-    "search-console",
-    "outreach",
+    "agent-skills",
+    "claude-skills",
+    "cold-email",
     "higgsfield",
-    "mcp"
+    "mcp",
+    "merch",
+    "metrika",
+    "outreach",
+    "russian",
+    "screen-printing",
+    "search-console",
+    "seo",
+    "skill-md",
+    "skills",
+    "webmaster",
+    "wordstat",
+    "yandex"
   ],
   "skills": [
     "./skills/merch/merch-quote",
@@ -31,5 +36,6 @@
     "./skills/ru-web/yandex360-outreach",
     "./skills/ru-web/higgsfield-budget-mcp",
     "./skills/meta/skill-writing-ru"
-  ]
+  ],
+  "icon": "./.claude-plugin/icon.png"
 }
