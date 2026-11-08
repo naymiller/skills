@@ -41,5 +41,6 @@
   "icon": "./.claude-plugin/icon.png",
   "homepage": "https://github.com/naymiller/skills",
   "documentationUrl": "https://github.com/naymiller/skills#readme",
-  "supportUrl": "https://github.com/naymiller/skills/issues"
+  "supportUrl": "https://github.com/naymiller/skills/issues",
+  "privacyPolicyUrl": "https://github.com/naymiller/skills#данные-и-внешние-сервисы"
 }
