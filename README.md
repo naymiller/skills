@@ -60,6 +60,18 @@ claude plugin install naymiller-skills@naymiller
 
 MCP-сервер Higgsfield подключается отдельно — инструкция в [его SKILL.md](skills/ru-web/higgsfield-budget-mcp/SKILL.md).
 
+## Данные и внешние сервисы
+
+Своего сервера у набора нет, автор никаких данных не получает и не хранит. Наружу данные уходят только туда, куда их явно отправляет пользователь:
+
+- `yandex360-outreach` — письма через SMTP/IMAP Яндекс 360 (smtp.yandex.ru, imap.yandex.ru). Читает CSV с лидами (имя, email, компания) и ведёт локальный CSV-CRM на вашем компьютере.
+- `higgsfield-budget-mcp` — промпты и загруженные изображения уходят в API Higgsfield (api.higgsfield.ai) с вашим ключом.
+- `yandex-demand-research`, `yandex-gsc-analytics` — работают в вашем залогиненном браузере с Вордстатом, Метрикой, Вебмастером, Search Console; выгрузки сохраняются в рабочую папку.
+
+Остальные скиллы работают только с локальными файлами.
+
+*Data: no author-side server. Outbound only to Yandex 360 mail (outreach), the Higgsfield API (generation) and your own logged-in Yandex/Google dashboards; lead CSVs and the CRM stay on your machine.*
+
 ## Ответственность
 
 Скиллы помогают агенту, но решения и ответственность остаются за вами: цены в КП, отправка писем (в РФ — с учётом закона «О рекламе» и 152-ФЗ), публикация на сайте, расходы на генерации. Скиллы, которые тратят деньги или отправляют что-то наружу, требуют явного подтверждения перед каждым таким действием.
