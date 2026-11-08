@@ -1,7 +1,8 @@
 {
   "name": "naymiller-skills",
+  "displayName": "Naymiller Skills",
   "version": "1.0.0",
-  "description": "Скиллы для агентов на русском: расчёт и КП на мерч, цветоделение под шелкографию, референсы одежды для ИИ-фото, спрос и аналитика Яндекса/Google без API-ключей, аутрич через Яндекс 360, Higgsfield с лимитом расходов, как писать скиллы.",
+  "description": "Russian-language agent skills from a real garment and print production: merch costing and quotes, screen-print color separation to 1:1 films, apparel references for AI photos, Yandex demand research and Metrica/Webmaster/Search Console analysis without API keys, Yandex 360 cold outreach, budget-capped Higgsfield generation, and a guide to writing skills.",
   "author": {
     "name": "naymiller",
     "url": "https://github.com/naymiller"
@@ -37,5 +38,8 @@
     "./skills/ru-web/higgsfield-budget-mcp",
     "./skills/meta/skill-writing-ru"
   ],
-  "icon": "./.claude-plugin/icon.png"
+  "icon": "./.claude-plugin/icon.png",
+  "homepage": "https://github.com/naymiller/skills",
+  "documentationUrl": "https://github.com/naymiller/skills#readme",
+  "supportUrl": "https://github.com/naymiller/skills/issues"
 }
